@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Untitled</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+    <div class="text-center">
+      <h1>Instagram Search!</h1>
+    </div>
+
+    <br>
+
+    <div id="search">
+      <form id="tag-search">
+        <div class="form-group">
+          <input type="text" id="tag_query" name="tag_query" class="form-control input-lg" placeholder="Enter a tag..." required>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Search</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="search-again">
+      <h2>You searched for: <span id="search-term" class="search-term"></span></h2>
+      <form id="search-again-form">
+        <div class="form-group">
+          <button type="submit" class="btn btn-success btn-lg btn-block">Search Again?</button>
+        </div>
+      </form>
+    </div>
+
+    <br><hr>
+
+    <div id="image-container" class="text-center"></div>
+
+  </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
